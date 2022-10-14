@@ -1,0 +1,29 @@
+void main() {
+  
+  int subNumbers(int n1, int n2) {
+  return n1 - n2;
+  }
+
+  int addNumbers(int n1, int n2) {
+  return n1 + n2;
+  }
+
+  int divide(int n1, int n2) {
+  return n1 ~/ n2;
+  }
+
+  int multiply(int n1, int n2) {
+  return n1 * n2;
+  }
+  
+  // calls the function
+  print(subNumbers(9,5));
+  print(addNumbers(8,5));
+  print(multiply(6,5));
+  print(divide(6,5)); 
+  //except for this
+  print("module: ${9/4}");
+
+
+}
+
